@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* img section starts*/
+.pimg1 {
+  background-image: url(https://media.pitchfork.com/photos/63f90e75d169cd0469754e26/16:9/w_1280,c_limit/Bjork-Post.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(https://images-prod.dazeddigital.com/786/azure/dazed-prod/1110/4/1114573.gif);
+  min-height: 100%;
+}
+.pimg3 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/56858337cbced60d3b293aef/58ce27de-e9bf-4d4f-85ab-df2d654839b0/Albumism_Bjork_Homogenic_MainImage_16x9.jpg);
+  min-height: 100%;
+}
+.pimg4 {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c16862c-4155-415d-84d9-e8d0b6d9bdf2/d8esq1h-dd0e5168-7cb5-4aad-bdc8-a01d34badce6.jpg/v1/fill/w_1024,h_579,q_75,strp/vulnicura_bjork_wallpaper_by_ndop_d8esq1h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc5IiwicGF0aCI6IlwvZlwvM2MxNjg2MmMtNDE1NS00MTVkLTg0ZDktZThkMGI2ZDliZGYyXC9kOGVzcTFoLWRkMGU1MTY4LTdjYjUtNGFhZC1iZGM4LWEwMWQzNGJhZGNlNi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.PTjqapgYbuiaEY2KUhG6Q6rQ21GMDd0YOsyv0lvOuO0);
+  min-height: 100%;
+}
+.pimg5 {
+  background-image: url(https://www.out.com/media-library/bjork.png?id=32787168&width=980);
+  min-height: 100%;
+}
+.pimg6 {
+  background-image: url(https://www.hungertv.com/app/uploads/2017/12/bjork.jpg);
+  min-height: 100%;
+}
+.pimg7 {
+  background-image: url(https://soulfeederweb.com/wp-content/uploads/2017/10/bjork-portrait-oct-2016-billboard-1548.jpg);
+  min-height: 100%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7 {
+  /*now inorder for our image to come in center we'll do*/
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*now to create a parallax effect we will just do*/
+  background-attachment: fixed;
+}
+/* img section ends*/
+/* pimg text section starts*/
+.ptext {
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: white;
+  padding: 20px;
+}
+/* pimg section ends*/
+/* sec 1 section starts*/
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+/* sec 2 and sec 3 section starts*/
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
